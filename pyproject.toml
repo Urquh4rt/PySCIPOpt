@@ -53,7 +53,9 @@ before-all = [
 "ls .",
 "ls ..",
 "ls ../..",
+"ls ../install",
+"ls ../install/lib",
 ]
-environment = {PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/bin:$PATH", DYLD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$DYLD_LIBRARY_PATH", LD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$LD_LIBRARY_PATH", SCIPOPTDIR="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/"}
+environment = {PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/bin:$PATH", DYLD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$DYLD_LIBRARY_PATH", LD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$LD_LIBRARY_PATH", SCIPOPTDIR="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/",  PKG_CONFIG_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib/pkgconfig:$PKG_CONFIG_PATH"}
 build-frontend = "build"
 skip = "cp36-* cp37-* cp38-* cp39-*"
