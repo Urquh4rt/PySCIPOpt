@@ -50,7 +50,10 @@ before-all = [
 "cmake .. -DAUTOBUILD=ON -DSOPLEX_DIR=soplex/build -DCMAKE_INSTALL_PREFIX=../install",
 "make -j",
 "make install",
+"ls .",
+"ls ..",
+"ls ../..",
 ]
-environment = {PATH="$(pwd)/scip/install/bin:$PATH", DYLD_LIBRARY_PATH="$(pwd)/scip/install/lib:$DYLD_LIBRARY_PATH", LD_LIBRARY_PATH="$(pwd)/scip/install/lib:$LD_LIBRARY_PATH", SCIPOPTDIR="$(pwd)/scip/install/"}
+environment = {PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/bin:$PATH", DYLD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$DYLD_LIBRARY_PATH", LD_LIBRARY_PATH="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/lib:$LD_LIBRARY_PATH", SCIPOPTDIR="/Users/runner/work/PySCIPOpt/PySCIPOpt/scip/install/"}
 build-frontend = "build"
 skip = "cp36-* cp37-* cp38-* cp39-*"
